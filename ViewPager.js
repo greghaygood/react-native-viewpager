@@ -322,13 +322,13 @@ var ViewPager = React.createClass({
     }
 
     var sceneContainerStyle = {
-      width: deviceWidth,
+      width: deviceWidth*pagesNum,
       flex: 1,
       flexDirection: 'row'
     };
 
     var sceneContainerStyleColumn = {
-      width: deviceWidth,
+      width: deviceWidth*pagesNum,
       flex: 1,
       flexDirection: 'column'
     };
